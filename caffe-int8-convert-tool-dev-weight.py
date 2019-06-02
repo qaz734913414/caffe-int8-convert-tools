@@ -35,7 +35,8 @@ import datetime
 from google.protobuf import text_format
 from scipy import stats
 
-np.set_printoptions(threshold='nan')
+#np.set_printoptions(threshold='nan')
+np.set_printoptions(threshold=sys.maxsize)
 np.set_printoptions(suppress=True)
 
 def parse_args():
